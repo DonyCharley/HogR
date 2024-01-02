@@ -1,7 +1,6 @@
 import 'dart:convert';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter/src/widgets/framework.dart';
 import 'package:get/get.dart';
 
 
@@ -31,8 +30,5 @@ class Tab1Controller extends GetxController {
     return await rootBundle.loadString(filePath);
   }
 
-  void navigateToPage3(BuildContext context) {
-
-  }
 
 }

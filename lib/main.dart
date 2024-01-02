@@ -1,6 +1,6 @@
-import 'package:auto_route_integration/routes/app_router.dart';
+
 import 'package:flutter/material.dart';
-import 'package:get/get_navigation/src/root/get_material_app.dart';
+import 'package:hogR/routes/app_router.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,6 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     AppRouter appRouter = AppRouter();
     return MaterialApp.router(
+      title: 'HogR',
       debugShowCheckedModeBanner: false,
       routerConfig: appRouter.config(),
     );

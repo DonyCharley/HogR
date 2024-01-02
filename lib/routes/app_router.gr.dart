@@ -9,25 +9,18 @@
 
 // ignore_for_file: no_leading_underscores_for_library_prefixes
 import 'package:auto_route/auto_route.dart' as _i13;
-import 'package:auto_route_integration/screen/dashBoardScreen/dashboard_screen.dart'
-    as _i1;
-import 'package:auto_route_integration/screen/firstscreen/page_1.dart' as _i3;
-import 'package:auto_route_integration/screen/page5/page_5.dart' as _i2;
-import 'package:auto_route_integration/screen/tabs/tab1/first_tab_navigation_screen.dart'
-    as _i6;
-import 'package:auto_route_integration/screen/tabs/tab1/first_tab_screen.dart'
-    as _i4;
-import 'package:auto_route_integration/screen/tabs/tab1/page_3.dart' as _i10;
-import 'package:auto_route_integration/screen/tabs/tab1/page_4.dart' as _i5;
-import 'package:auto_route_integration/screen/tabs/tab2/second_tab_navigation_screen.dart'
-    as _i7;
-import 'package:auto_route_integration/screen/tabs/tab2/second_tab_screen.dart'
-    as _i8;
-import 'package:auto_route_integration/screen/tabs/tab3/page_6.dart' as _i9;
-import 'package:auto_route_integration/screen/tabs/tab3/third_tab_navigation_screen.dart'
-    as _i11;
-import 'package:auto_route_integration/screen/tabs/tab3/third_tab_screen.dart'
-    as _i12;
+import 'package:hogR/screen/dashBoardScreen/dashboard_screen.dart' as _i1;
+import 'package:hogR/screen/firstscreen/page_1.dart' as _i3;
+import 'package:hogR/screen/page5/page_5.dart' as _i2;
+import 'package:hogR/screen/tabs/tab1/first_tab_navigation_screen.dart' as _i6;
+import 'package:hogR/screen/tabs/tab1/first_tab_screen.dart' as _i4;
+import 'package:hogR/screen/tabs/tab1/page_3.dart' as _i10;
+import 'package:hogR/screen/tabs/tab1/page_4.dart' as _i5;
+import 'package:hogR/screen/tabs/tab2/second_tab_navigation_screen.dart' as _i7;
+import 'package:hogR/screen/tabs/tab2/second_tab_screen.dart' as _i8;
+import 'package:hogR/screen/tabs/tab3/page_6.dart' as _i9;
+import 'package:hogR/screen/tabs/tab3/third_tab_navigation_screen.dart' as _i11;
+import 'package:hogR/screen/tabs/tab3/third_tab_screen.dart' as _i12;
 
 abstract class $AppRouter extends _i13.RootStackRouter {
   $AppRouter({super.navigatorKey});
